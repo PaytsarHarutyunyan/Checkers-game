@@ -1,0 +1,42 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.square {
+  width: 12.5%;
+  height: 50px;
+}
+
+.white {
+  background-color: #d4d4d4;
+}
+
+.green {
+  background-color: #43a43c;
+}
+
+.piece {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.red  {
+  background-color: #dea6a6cd;
+  border: 5px solid #892121cd;
+}
+
+.black {
+  background-color: rgb(4, 4, 4);
+  border: 5px solid #892121cd;
+}
